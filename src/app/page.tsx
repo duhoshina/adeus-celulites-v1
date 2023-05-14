@@ -41,7 +41,7 @@ export default function Home() {
 
       <ul>
         {listItems.map((item, index) => (
-          <li className='flex gap-5 items-center justify-around px-3 border py-5 rounded-md bg-slate-50 drop-shadow-lg bg-opacity-60 backdrop-blur-sm mb-5'>
+          <li className='flex gap-5 items-center justify-around px-3 border py-5 rounded-md bg-slate-50 drop-shadow-lg bg-opacity-60 backdrop-blur-sm mb-5' key={index}>
             <div className='p-3 rounded-full flex justify-center aligm-center border bg-purple-500'>
               {<item.icon fill='#f3f3f3' width='60px' height='60px' />}
             </div>
@@ -56,8 +56,8 @@ export default function Home() {
 
       <h2 className='text-center text-3xl font-bold capitalize'>apenas <span className='text-purple-600'>21 dias</span> para ter esses resultados no seu corpo 👇</h2>
 
-      {listProvaSocial.map((item) => (
-        <div className='w-full flex flex-col items-center -mb-14'>
+      {listProvaSocial.map((item, index) => (
+        <div className='w-full flex flex-col items-center -mb-14' key={index}>
           <div className='w-full'>
             <Image src={item.sourceMedia} alt='selos digitais' className='rounded-xl m-auto' />
           </div>
