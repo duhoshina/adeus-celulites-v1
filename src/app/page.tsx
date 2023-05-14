@@ -28,7 +28,7 @@ export default function Home() {
       </h1>
       <h2 className='text-center text-md font-medium'>Aprenda a eliminar todas as toxinas e inflamações que causam o surgimento das celulites.</h2>
       <section className='block w-full'>
-        <iframe className='m-auto' src="https://www.youtube.com/embed/Yzm1CLh1-Gg?controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+        
       </section>
 
       <p className='text-center'>Apenas<br></br> <span className='text-2xl'>12x de <span className='font-bold'>R$28,94</span></span></p>
@@ -61,7 +61,7 @@ export default function Home() {
           <div className='w-full'>
             <Image src={item.sourceMedia} alt='selos digitais' className='rounded-xl m-auto' />
           </div>
-          <div className='relative -top-14 left-1 bg-white p-6 bg-opacity-60 backdrop-blur-sm rounded-xl drop-shadow-lg border-white right-10 space-y-3 max-w-sm'>
+          <div className='relative -top-14 left-1 p-6 bg-opacity-60 backdrop-blur-sm rounded-xl drop-shadow-lg border-white right-10 space-y-3 max-w-sm'>
             <div className="flex gap-2">
               <div className='w-10'>
                 <Image src={item.imagemPessoa} alt="foto um" className='rounded-full w-20' />
