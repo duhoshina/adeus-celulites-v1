@@ -27,7 +27,7 @@ export default function Home() {
         descoberto como médicos estão usando um <span className='text-purple-600'>estranho truque</span> para reduzir celulites nos seus pacientes em <span className='text-purple-600'>21 dias</span>
       </h1>
       <h2 className='text-center text-md font-medium'>Aprenda a eliminar todas as toxinas e inflamações que causam o surgimento das celulites.</h2>
-      <div className='p-28'><iframe allowFullScreen src="https://scripts.converteai.net/135b6bf3-01b6-4ffb-9e71-7fa8a5332cab/players/63ebd73cd5a1b900093ac940/embed.html" id="ifr_63ebd73cd5a1b900093ac940" className='absolute top-80 left-0 w-full h-full' referrerPolicy="origin"></iframe></div>
+      <div><iframe allowFullScreen src="https://scripts.converteai.net/135b6bf3-01b6-4ffb-9e71-7fa8a5332cab/players/63ebd73cd5a1b900093ac940/embed.html" id="ifr_63ebd73cd5a1b900093ac940" className='relative w-full h-full' referrerPolicy="origin"></iframe></div>
 
       <p className='text-center'>Apenas<br></br> <span className='text-2xl'>12x de <span className='font-bold'>R$28,94</span></span></p>
 
