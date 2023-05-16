@@ -27,9 +27,7 @@ export default function Home() {
         descoberto como médicos estão usando um <span className='text-purple-600'>estranho truque</span> para reduzir celulites nos seus pacientes em <span className='text-purple-600'>21 dias</span>
       </h1>
       <h2 className='text-center text-md font-medium'>Aprenda a eliminar todas as toxinas e inflamações que causam o surgimento das celulites.</h2>
-      <section className='block w-full'>
-        <iframe className='m-auto' src="" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
-      </section>
+      <div className='p-28'><iframe allowFullScreen src="https://scripts.converteai.net/135b6bf3-01b6-4ffb-9e71-7fa8a5332cab/players/63ebd73cd5a1b900093ac940/embed.html" id="ifr_63ebd73cd5a1b900093ac940" className='absolute top-80 left-0 w-full h-full' referrerPolicy="origin"></iframe></div>
 
       <p className='text-center'>Apenas<br></br> <span className='text-2xl'>12x de <span className='font-bold'>R$28,94</span></span></p>
 
@@ -41,7 +39,7 @@ export default function Home() {
 
       <ul>
         {listItems.map((item, index) => (
-          <li className='flex gap-5 items-center justify-around px-3 border py-5 rounded-md bg-slate-50 drop-shadow-lg bg-opacity-60 backdrop-blur-sm mb-5' key={index}>
+          <li className='flex gap-5 items-center justify-around px-3 border py-5 rounded-md bg-slate-50 drop-shadow-lg bg-opacity-60 mb-5' key={index}>
             <div className='p-3 rounded-full flex justify-center aligm-center border bg-purple-500'>
               {<item.icon fill='#f3f3f3' width='60px' height='60px' />}
             </div>
