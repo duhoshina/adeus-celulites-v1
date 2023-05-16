@@ -27,9 +27,9 @@ export default function Home() {
         descoberto como médicos estão usando um <span className='text-purple-600'>estranho truque</span> para reduzir celulites nos seus pacientes em <span className='text-purple-600'>21 dias</span>
       </h1>
       <h2 className='text-center text-md font-medium'>Aprenda a eliminar todas as toxinas e inflamações que causam o surgimento das celulites.</h2>
-      <div><iframe allowFullScreen src="https://scripts.converteai.net/135b6bf3-01b6-4ffb-9e71-7fa8a5332cab/players/63ebd73cd5a1b900093ac940/embed.html" id="ifr_63ebd73cd5a1b900093ac940" className='relative w-full h-full' referrerPolicy="origin"></iframe></div>
+      <div className='h-72'><iframe allowFullScreen src="https://scripts.converteai.net/135b6bf3-01b6-4ffb-9e71-7fa8a5332cab/players/63ebd73cd5a1b900093ac940/embed.html" id="ifr_63ebd73cd5a1b900093ac940" className='h-3/4' referrerPolicy="origin"></iframe></div>
 
-      <p className='text-center'>Apenas<br></br> <span className='text-2xl'>12x de <span className='font-bold'>R$28,94</span></span></p>
+      <p className='text-center -mt-24'>Apenas<br></br> <span className='text-2xl'>12x de <span className='font-bold'>R$28,94</span></span></p>
 
       <a href='https://pay.hotmart.com/X79200136Q?off=sk7q0bz6&checkoutMode=10&bid=1676398600375' className='text-slate-100  uppercase block font-bold p-5 bg-purple-500 rounded-md w-full text-center'>remover celulites agora</a>
 
