@@ -1,34 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Visão Geral
 
-## Getting Started
+Este é um projeto de uma Landing Page desenvolvida em NextJS apenas para dispositivos móveis, com o uso de TypeScript, voltada para a venda de um produto digital (PLR - Produtos com Direitos de Revenda). O objetivo desta Landing Page é apresentar aos visitantes um método eficiente para eliminar celulites em até 21 dias.<br><br>
 
-First, run the development server:
+A página foi cuidadosamente projetada para maximizar a conversão de visitantes em compradores, utilizando estratégias de Call-to-Action (CTA) destacado e técnica de demora para exibir elementos importantes. A técnica de demora é uma abordagem comumente utilizada em vendas de produtos digitais, para manter o foco do usuário e evitar distrações, destacando os benefícios do produto.
+### Live Preview: https://adeus-celulites.vercel.app/
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Índice
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Visão Geral](#visão-geral)
+- [Funcionalidades](#funcionalidades)
+- [Pré-requisitos](#pré-requisitos)
+- [Contato](#contato)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Funcionalidades
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Apresentação do produto digital (PLR) para eliminar celulites em 21 dias.
+- Call-to-Action (CTA) estrategicamente posicionado para impulsionar as conversões.
+- Técnica de demora para exibir outros elementos e manter o foco do usuário.
+- Design responsivo para oferecer uma experiência de usuário consistente em diferentes dispositivos.
 
-## Learn More
+## Pré-requisitos
 
-To learn more about Next.js, take a look at the following resources:
+- Não há pré-requisitos, o usuário pode acessar o link do Live Preview e ver a Landing Page normalmente.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contato
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Para mais informações sobre o projeto, entre em contato:
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Email: contato@luishoshina.com
+- GitHub: github.com/duhoshina
